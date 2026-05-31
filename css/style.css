@@ -123,6 +123,35 @@ ul{ list-style:none; }
   opacity:.7;
 }
 
+/* ---------- 写真（実画像） ---------- */
+.media{
+  display:block;
+  width:100%;
+  object-fit:cover;
+}
+.media--fv{
+  aspect-ratio:4/3;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+}
+.media--server{
+  aspect-ratio:9/11;
+  border-radius:var(--radius);
+  box-shadow:var(--shadow);
+  background:var(--c-white);
+}
+.media--voice{
+  width:84px; height:84px;
+  border-radius:50%;
+  margin:0 auto 12px;
+  box-shadow:var(--shadow-soft);
+}
+.media--portrait{
+  aspect-ratio:4/5;
+  border-radius:var(--radius-lg);
+  box-shadow:var(--shadow);
+}
+
 /* ---------- ボタン ---------- */
 .btn{
   display:inline-flex; align-items:center; justify-content:center;
